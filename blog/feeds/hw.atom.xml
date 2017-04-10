@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 電腦輔助設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/hw.atom.xml" rel="self"></link><id>./</id><updated>2017-04-06T00:00:00+08:00</updated><entry><title>協同產品設計實習 第6周作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-6zhou-zuo-ye.html" rel="alternate"></link><published>2017-04-06T00:00:00+08:00</published><updated>2017-04-06T00:00:00+08:00</updated><author><name>40423118</name></author><id>tag:,2017-04-06:./xie-tong-chan-pin-she-ji-shi-xi-di-6zhou-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
+&lt;h1&gt;the wrong way to assemble...&lt;/h1&gt;
+&lt;p&gt;如果想要畫不同尺寸的連桿,要記得先畫好連桿喔&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/212558175" width="640" height="192" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/212558175"&gt;wrong way to assemble 8bar&lt;/a&gt; from &lt;a href="https://vimeo.com/user46453244"&gt;40423118&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1&gt;or...you will pay for this!!!&lt;/h1&gt;
 &lt;h1&gt;the parts&lt;/h1&gt;
 &lt;iframe src="https://player.vimeo.com/video/212547073" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -8,14 +15,25 @@
 
 &lt;iframe src="./../data/w6/8bar-triangle.html" width="500" height="500"&gt;&lt;/iframe &gt;
 
---------------------------------------------------
+
+
+
+
+
+
+
+
 &lt;iframe src="https://player.vimeo.com/video/212548342" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/212548342"&gt;8bar-50 20&lt;/a&gt; from &lt;a href="https://vimeo.com/user46453244"&gt;40423118&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 
 &lt;iframe src="./../data/w6/8bar-50 20.html" width="500" height="500"&gt;&lt;/iframe &gt;
 
--------------------------------------------------
+
+
+
+
+
 
 &lt;iframe src="https://player.vimeo.com/video/212555438" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/212555438"&gt;8bar-桿&lt;/a&gt; from &lt;a href="https://vimeo.com/user46453244"&gt;40423118&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
@@ -27,9 +45,27 @@
 &lt;iframe src="./../data/w6/8bar-length70mm.html" width="500" height="500"&gt;&lt;/iframe &gt;
 
 &lt;iframe src="./../data/w6/8bar-length80mm.html" width="500" height="500"&gt;&lt;/iframe &gt;
----------------------------------------
-8連桿solvespace組立
-===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        8連桿solvespace組立
+   ===
+
+
+
+
+
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/aGTID4sNHYk" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -38,7 +74,7 @@
 
 
 
-工程浩大的V-rep組立
+     工程浩大的V-rep組立
 ===
 
 
