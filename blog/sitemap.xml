@@ -5,35 +5,49 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-04-13T09:37:59-00:00</lastmod>
+<lastmod>2017-04-26T23:13:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-04-13T09:37:59-00:00</lastmod>
+<lastmod>2017-04-26T23:13:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-04-13T09:37:59-00:00</lastmod>
+<lastmod>2017-04-26T23:13:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-04-13T09:37:59-00:00</lastmod>
+<lastmod>2017-04-26T23:13:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2017-04-13T09:33:00+08:00</lastmod>
+<lastmod>2017-04-26T22:18:32+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./40423118-si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html</loc>
+<lastmod>2017-04-20T10:30:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./xie-tong-chan-pin-she-ji-shi-xi-qi-zhong-bao-gao.html</loc>
+<lastmod>2017-04-20T10:08:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -75,21 +89,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/hw.html</loc>
-<lastmod>2017-04-06T00:00:00+08:06</lastmod>
+<lastmod>2017-04-20T10:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/hw.html</loc>
-<lastmod>2017-04-06T00:00:00+08:06</lastmod>
+<lastmod>2017-04-20T10:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40423118.html</loc>
-<lastmod>2017-04-06T00:00:00+08:06</lastmod>
+<lastmod>2017-04-20T10:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
