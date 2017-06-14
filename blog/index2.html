@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>協同產品設計實習 第10 - 2016Fall 電腦輔助設計實習 (虎尾科大MDE)</title>
+    <title>2016Fall 電腦輔助設計實習 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,19 +166,15 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="./xie-tong-chan-pin-she-ji-shi-xi-di-10.html">
-
+<link rel="canonical" href=".">
         <meta name="author" content="KMOL" />
-        <meta name="description" content="周作業 Date: 2017-04-20 10:08 Category:HW Tags: HW Author: 40423118" />
 
+    <!-- Open Graph tags -->
         <meta property="og:site_name" content="2016Fall 電腦輔助設計實習 (虎尾科大MDE)" />
-        <meta property="og:type" content="article"/>
-        <meta property="og:title" content="協同產品設計實習 第10"/>
-        <meta property="og:url" content="./xie-tong-chan-pin-she-ji-shi-xi-di-10.html"/>
-        <meta property="og:description" content="周作業 Date: 2017-04-20 10:08 Category:HW Tags: HW Author: 40423118"/>
-        <meta property="article:published_time" content="2017-06-14" />
-            <meta property="article:section" content="misc" />
-            <meta property="article:author" content="KMOL" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="2016Fall 電腦輔助設計實習 (虎尾科大MDE)"/>
+        <meta property="og:url" content="."/>
+        <meta property="og:description" content="2016Fall 電腦輔助設計實習 (虎尾科大MDE)"/>
 
 
     <!-- Bootstrap -->
@@ -262,7 +258,7 @@ init_mathjax();
                         <li >
                             <a href="./category/hw.html">Hw</a>
                         </li>
-                        <li class="active">
+                        <li >
                             <a href="./category/misc.html">Misc</a>
                         </li>
                         <li >
@@ -287,246 +283,30 @@ init_mathjax();
     <div class="row">
         <div class="col-sm-9">
 
-    <section id="content">
-        <article>
-            <header class="page-header">
-                <h1>
-                    <a href="./xie-tong-chan-pin-she-ji-shi-xi-di-10.html"
-                       rel="bookmark"
-                       title="Permalink to 協同產品設計實習 第10">
-                        協同產品設計實習 第10
-                    </a>
-                </h1>
-            </header>
-            <div class="entry-content">
-                <div class="panel">
-                    <div class="panel-body">
-<footer class="post-info">
-    <span class="label label-default">Date</span>
-    <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-06-14T20:33:57.190768+08:00"> Wed 14 June 2017</time>
-    </span>
-            <span class="label label-default">By</span>
-            <a href="./author/kmol.html"><i class="fa fa-user"></i> KMOL</a>
-
-
-
-    
-</footer><!-- /.post-info -->                    </div>
+            <article>
+                <h2><a href="./xie-tong-chan-pin-she-ji-shi-xi-di-4zhou-zuo-ye.html">協同產品設計實習 第4周作業</a></h2>
+                <div class="summary">
+                    <a class="btn btn-default btn-xs" href="./xie-tong-chan-pin-she-ji-shi-xi-di-4zhou-zuo-ye.html">more ...</a>
                 </div>
-                <p>周作業
-Date: 2017-04-20 10:08
-Category:HW
-Tags: HW
-Author: 40423118</p>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./xie-tong-chan-pin-she-ji-shi-xi-di-5zhou-zuo-ye.html">協同產品設計實習 第5周作業</a></h2>
+                <div class="summary">
+                    <a class="btn btn-default btn-xs" href="./xie-tong-chan-pin-she-ji-shi-xi-di-5zhou-zuo-ye.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
 
-
-<p>本周內容</p>
-<p>在python上面執行加減乘除</p>
-<p>當時在上課時構思能否用html語法進行互動</p>
-<p>後來老師使用Brython執行成功</p>
-<p>不過似乎不能消除前面的值</p>
-<p>以下程式碼以Python呈現</p>
-<p>互動程式已Brython呈現</p>
-<h1>四則運算</h1>
-<pre class="brush: python">
-def add(a,b): //加法運算法則
-   return a+b
-
-import sys//加法運算程式
-sys.path.append("./m1")
-import add 
-sum=add.add(a,b)
-print(sum) 
-</pre>
-
-<p>測試加法
-<!-- PELICAN_END_SUMMARY --></p>
-<!-- 導入 Brython 標準程式庫 -->
-
-<script src="../data/Brython-3.3.1/brython.js"></script>
-
-<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-// 設定 data/py 為共用程式路徑
-brython({debug:1, pythonpath:['./../data/py']});
-}
-</script>
-
-<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
-
-<!--<canvas id="w10" width="800" height="600"></canvas>-->
-
-<div id="container" width="600" height="400"></div>
-
-<script type="text/python3">
-from browser import document as doc
-from browser import html
-import math
-container = doc['container']
-degree = math.pi/180
-def button1(event):
-    a = input("give me a")
-    b = input("give me b")
-    container <= str(float(a)+float(b))
-doc["button1"].bind("click", button1)
-
-</script>
-
-<p><button id="button1">按下請定義值</button>
-<pre class="brush: python">
-def minus(a,b)://減法運算法則
-  return a-b</p>
-<p>import sys//減法運算程式
-sys.path.append("./m1")
-import minus
-sum=minus.minus(a,b)
-</pre>
-測試減法
-<!-- PELICAN_END_SUMMARY --></p>
-<!-- 導入 Brython 標準程式庫 -->
-
-<script src="../data/Brython-3.3.1/brython.js"></script>
-
-<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-// 設定 data/py 為共用程式路徑
-brython({debug:1, pythonpath:['./../data/py']});
-}
-</script>
-
-<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
-
-<!--<canvas id="w10" width="800" height="600"></canvas>-->
-
-<div id="container1" width="600" height="400"></div>
-
-<script type="text/python3">
-from browser import document as doc
-from browser import html
-import math
-container = doc['container1']
-degree = math.pi/180
-def button2(event):
-    a = input("give me a")
-    b = input("give me b")
-    container <= str(float(a)-float(b))
-doc["button2"].bind("click", button2)
-
-</script>
-
-<p><button id="button2">按下請定義值</button>
-<pre class="brush: python">
-print(sum)def cross(a,b)://乘法運算法則
-  return a*b</p>
-<p>import sys//乘法運算程式
-sys.path.append("./m1")
-import cross
-sum=cross.cross(a,b)
-</pre>
-測試乘法
-<!-- PELICAN_END_SUMMARY --></p>
-<!-- 導入 Brython 標準程式庫 -->
-
-<script src="../data/Brython-3.3.1/brython.js"></script>
-
-<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-// 設定 data/py 為共用程式路徑
-brython({debug:1, pythonpath:['./../data/py']});
-}
-</script>
-
-<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
-
-<!--<canvas id="w10" width="800" height="600"></canvas>-->
-
-<div id="container3" width="600" height="400"></div>
-
-<script type="text/python3">
-from browser import document as doc
-from browser import html
-import math
-container = doc['container3']
-degree = math.pi/180
-def button3(event):
-    a = input("give me a")
-    b = input("give me b")
-    container <= str(float(a)*float(b))
-doc["button3"].bind("click", button3)
-
-</script>
-
-<p><button id="button3">按下請定義值</button></p>
-<pre class="brush: python">
-print(sum)def div(a,b)://除法運算法則
-   return a/b
-
- import sys//除法運算程式
-sys.path.append("./m1")
-import div
-sum=div.div(a,b)
-print(sum)  
-</pre>
-
-<p>測試除法
-<!-- PELICAN_END_SUMMARY --></p>
-<!-- 導入 Brython 標準程式庫 -->
-
-<script src="../data/Brython-3.3.1/brython.js"></script>
-
-<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-// 設定 data/py 為共用程式路徑
-brython({debug:1, pythonpath:['./../data/py']});
-}
-</script>
-
-<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
-
-<!--<canvas id="w10" width="800" height="600"></canvas>-->
-
-<div id="container4" width="600" height="400"></div>
-
-<script type="text/python3">
-from browser import document as doc
-from browser import html
-import math
-container = doc['container4']
-degree = math.pi/180
-def button4(event):
-    a = input("give me a")
-    b = input("give me b")
-    container <= str(float(a)/float(b))
-doc["button4"].bind("click", button4)
-
-</script>
-
-<p><button id="button4">按下請定義值</button></p>
-<iframe src="https://player.vimeo.com/video/216949759" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<p><a href="https://vimeo.com/216949759">+-乘除</a> from <a href="https://vimeo.com/user46453244">40423118</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-            </div>
-            <!-- /.entry-content -->
-        </article>
-    </section>
-
+        <ul class="pagination">
+                <li class="prev"><a href="./index.html">&laquo;</a>
+                </li>
+                    <li class=""><a
+                            href="./index.html">1</a></li>
+                    <li class="active"><a
+                            href="./index2.html">2</a></li>
+                <li class="next disabled"><a href="#">&raquo;</a></li>
+        </ul>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
